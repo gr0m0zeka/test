@@ -8,7 +8,7 @@ class Staging extends Model
 {
     protected  $guarded = [];
 
-    public function network()
+    public function combination()
     {
         return $this->belongsTo('App\Combination');
     }
